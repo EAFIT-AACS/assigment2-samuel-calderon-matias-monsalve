@@ -1,4 +1,4 @@
-# PDA Simulation
+# PDA Simulation with CFG
 ## Student Information
 - **Names:** Samuel Calderon Duque & Matias Monsalve Ruiz.
 - **Class Number:** 7309.
