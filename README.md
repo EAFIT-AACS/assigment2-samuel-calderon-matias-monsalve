@@ -33,13 +33,15 @@ The second algorithm processes the strings generated in Algorithm 1 using a Push
 
 - The string 'aaaaabb' is REJECTED by the PDA.
 
-The third algorithm takes the strings generated in Algorithm 1 and displays the derivation process for each string. For strings that are accepted, it shows the steps to derive them using the grammar rules. For strings that are rejected, first, it displays a message informing the user that the string can not be derived correctly, then it performs the same process but ends with the remaining string that could not be derived, instead of END. When you run ALGORITHM_3_LFCO_2025_MS, the output will show detailed derivation steps for each string. Example output:
+The third algorithm takes the strings generated in Algorithm 1 and displays the derivation process for each string. For strings that are accepted, it shows the steps to derive them using the grammar rules. For strings that are rejected, first, it displays a message informing the user that the string can not be derived correctly, then it performs the same process but ends with the remaining string that could not be derived, instead of END. When you run ALGORITHM_3_LFCO_2025_MS, the output will show detailed derivation steps for each string. Output example:
 
-1    S                             aabb
+Disclaimer: The output when running the code is better structured.
 
-2    aSb                           ab
+1           S                             aabb
 
-3    aaSbb                         
+2           aSb                           ab
 
-4    aaεbb                         End
+3           aaSbb                         
+
+4           aaεbb                         End
 
